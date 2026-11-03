@@ -1,0 +1,30 @@
+test_base_no_escribible_informa_error_sin_traceback (test_menu.MenuTests) ... ok
+test_fecha_invalida_y_solicitante_vacio_no_crean_reservas (test_menu.MenuTests) ... ok
+test_fin_de_entrada_conserva_reservas (test_menu.MenuTests) ... ok
+test_opciones_invalidas_no_cierran_el_programa (test_menu.MenuTests) ... ok
+test_recorrido_completo_y_reinicio (test_menu.MenuTests) ... ok
+test_reinicio_cancelado_conserva_reservas (test_menu.MenuTests) ... ok
+test_reinicio_confirmado_borra_ambos_estados (test_menu.MenuTests) ... ok
+test_activas_y_canceladas_sobreviven_a_proceso_nuevo (test_persistencia.PersistenciaTests) ... ok
+test_conflictos_solo_activa_misma_unidad (test_reglas.ReglasTests) ... ok
+test_consecutivas_y_separadas_en_ambos_sentidos (test_reglas.ReglasTests) ... ok
+test_fecha_invalida_o_formato_incorrecto (test_reglas.ReglasTests) ... ok
+test_fechas_pasadas_bisiestas_y_cambio_de_dia (test_reglas.ReglasTests) ... ok
+test_inicio_igual_o_posterior_al_fin (test_reglas.ReglasTests) ... ok
+test_inventario_de_la_consigna (test_reglas.ReglasTests) ... ok
+test_solicitante_vacio_y_espacios (test_reglas.ReglasTests) ... ok
+test_superposiciones_parciales_contenidas_e_identicas (test_reglas.ReglasTests) ... ok
+test_unidad_desconocida (test_reglas.ReglasTests) ... ok
+test_cancelaciones_invalidas_no_modifican_historial (test_servicio.ServicioTests) ... ok
+test_cancelar_conserva_datos_y_libera (test_servicio.ServicioTests) ... ok
+test_consecutivas_antes_y_despues (test_servicio.ServicioTests) ... ok
+test_consulta_y_creacion_rechazan_mismas_entradas_invalidas (test_servicio.ServicioTests) ... ok
+test_creacion_valida_con_identificadores_distintos (test_servicio.ServicioTests) ... ok
+test_rechazo_de_superposiciones_no_guarda_registros (test_servicio.ServicioTests) ... ok
+test_solicitante_con_comillas_se_guarda_como_dato (test_servicio.ServicioTests) ... ok
+test_unidades_distintas_simultaneas (test_servicio.ServicioTests) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.535s
+
+OK

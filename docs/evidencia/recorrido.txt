@@ -1,0 +1,166 @@
+RECORRIDO EJECUTADO POR EL AGENTE — 2026-11-03
+Python 3.9.6. Base temporal vacía.
+Comando en cada proceso: python3 main.py --db <BASE_TEMPORAL>
+Entrada estándar del primer proceso, una respuesta por línea:
+3
+1
+Ana Demo
+2026-11-03 10:00
+2026-11-03 11:00
+3
+1
+Beto Demo
+2026-11-03 10:30
+2026-11-03 11:30
+3
+1
+Beto Demo
+2026-11-03 11:00
+2026-11-03 12:00
+3
+2
+Carla Demo
+2026-11-03 10:00
+2026-11-03 11:00
+4
+1
+2
+1
+2026-11-03 10:00
+2026-11-03 11:00
+5
+0
+
+Salida real (ruta temporal sustituida y espacios finales de línea recortados):
+ReservaLab | Horarios UTC-3 | Base: <BASE_TEMPORAL>
+
+1. Ver equipos
+2. Consultar disponibilidad
+3. Crear reserva
+4. Cancelar reserva
+5. Ver historial
+0. Salir
+
+Elegí una opción: 1. MIC-01 — Microscopio digital
+2. MIC-02 — Microscopio digital
+3. OSC-01 — Osciloscopio
+4. MUL-01 — Multímetro
+5. FUE-01 — Fuente de alimentación
+Número de equipo: Solicitante ficticio: Formato: AAAA-MM-DD HH:MM. Horario UTC-3 fijo.
+Inicio: Fin: Reserva creada.
+#1 | MIC-01 | Ana Demo | 2026-11-03 10:00 → 2026-11-03 11:00 | ACTIVA
+
+1. Ver equipos
+2. Consultar disponibilidad
+3. Crear reserva
+4. Cancelar reserva
+5. Ver historial
+0. Salir
+
+Elegí una opción: 1. MIC-01 — Microscopio digital
+2. MIC-02 — Microscopio digital
+3. OSC-01 — Osciloscopio
+4. MUL-01 — Multímetro
+5. FUE-01 — Fuente de alimentación
+Número de equipo: Solicitante ficticio: Formato: AAAA-MM-DD HH:MM. Horario UTC-3 fijo.
+Inicio: Fin: Error: La unidad ya está reservada en ese horario.
+
+1. Ver equipos
+2. Consultar disponibilidad
+3. Crear reserva
+4. Cancelar reserva
+5. Ver historial
+0. Salir
+
+Elegí una opción: 1. MIC-01 — Microscopio digital
+2. MIC-02 — Microscopio digital
+3. OSC-01 — Osciloscopio
+4. MUL-01 — Multímetro
+5. FUE-01 — Fuente de alimentación
+Número de equipo: Solicitante ficticio: Formato: AAAA-MM-DD HH:MM. Horario UTC-3 fijo.
+Inicio: Fin: Reserva creada.
+#2 | MIC-01 | Beto Demo | 2026-11-03 11:00 → 2026-11-03 12:00 | ACTIVA
+
+1. Ver equipos
+2. Consultar disponibilidad
+3. Crear reserva
+4. Cancelar reserva
+5. Ver historial
+0. Salir
+
+Elegí una opción: 1. MIC-01 — Microscopio digital
+2. MIC-02 — Microscopio digital
+3. OSC-01 — Osciloscopio
+4. MUL-01 — Multímetro
+5. FUE-01 — Fuente de alimentación
+Número de equipo: Solicitante ficticio: Formato: AAAA-MM-DD HH:MM. Horario UTC-3 fijo.
+Inicio: Fin: Reserva creada.
+#3 | MIC-02 | Carla Demo | 2026-11-03 10:00 → 2026-11-03 11:00 | ACTIVA
+
+1. Ver equipos
+2. Consultar disponibilidad
+3. Crear reserva
+4. Cancelar reserva
+5. Ver historial
+0. Salir
+
+Elegí una opción: ID de reserva a cancelar: #1 | MIC-01 | Ana Demo | 2026-11-03 10:00 → 2026-11-03 11:00 | CANCELADA
+Reserva cancelada; horario liberado.
+
+1. Ver equipos
+2. Consultar disponibilidad
+3. Crear reserva
+4. Cancelar reserva
+5. Ver historial
+0. Salir
+
+Elegí una opción: 1. MIC-01 — Microscopio digital
+2. MIC-02 — Microscopio digital
+3. OSC-01 — Osciloscopio
+4. MUL-01 — Multímetro
+5. FUE-01 — Fuente de alimentación
+Número de equipo: Formato: AAAA-MM-DD HH:MM. Horario UTC-3 fijo.
+Inicio: Fin: DISPONIBLE
+
+1. Ver equipos
+2. Consultar disponibilidad
+3. Crear reserva
+4. Cancelar reserva
+5. Ver historial
+0. Salir
+
+Elegí una opción: #1 | MIC-01 | Ana Demo | 2026-11-03 10:00 → 2026-11-03 11:00 | CANCELADA
+#2 | MIC-01 | Beto Demo | 2026-11-03 11:00 → 2026-11-03 12:00 | ACTIVA
+#3 | MIC-02 | Carla Demo | 2026-11-03 10:00 → 2026-11-03 11:00 | ACTIVA
+
+1. Ver equipos
+2. Consultar disponibilidad
+3. Crear reserva
+4. Cancelar reserva
+5. Ver historial
+0. Salir
+
+Elegí una opción:
+SEGUNDO PROCESO después de terminar el primero. Entrada: 5, luego 0.
+ReservaLab | Horarios UTC-3 | Base: <BASE_TEMPORAL>
+
+1. Ver equipos
+2. Consultar disponibilidad
+3. Crear reserva
+4. Cancelar reserva
+5. Ver historial
+0. Salir
+
+Elegí una opción: #1 | MIC-01 | Ana Demo | 2026-11-03 10:00 → 2026-11-03 11:00 | CANCELADA
+#2 | MIC-01 | Beto Demo | 2026-11-03 11:00 → 2026-11-03 12:00 | ACTIVA
+#3 | MIC-02 | Carla Demo | 2026-11-03 10:00 → 2026-11-03 11:00 | ACTIVA
+
+1. Ver equipos
+2. Consultar disponibilidad
+3. Crear reserva
+4. Cancelar reserva
+5. Ver historial
+0. Salir
+
+Elegí una opción:
+Ambos procesos terminaron con código 0 y stderr vacío.

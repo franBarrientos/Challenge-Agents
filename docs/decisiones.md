@@ -44,3 +44,28 @@ deben completarse con su revisión real; no se atribuyen automáticamente al aut
 - Evidencia: [persistencia](../persistencia.py), [servicio](../tests/test_servicio.py),
   [prueba de reinicio](../tests/test_persistencia.py).
 - Decisión humana: **pendiente**. Falta indicar aceptar/corregir/rechazar y motivo tras revisar.
+
+## Episodio 3 — Menú e integración
+
+- Objetivo/requisitos: CA01–CA12 desde la interfaz y ejecución reproducible de la entrega.
+- Contexto: especificación, reglas, servicio, persistencia y resultados de los episodios anteriores.
+- Extracto aplicado: «Mantener menú, reglas y persistencia separados; no agregar web ni servicios externos»;
+  «Ejecutar pruebas con bases temporales. Nunca usar la base del usuario para pruebas».
+- Acción del agente: implementó menú numerado, mensajes de error, selección de base y
+  reinicio confirmado; documentó instalación, uso, supuestos y revisión pendiente.
+- Verificación del agente: `python3 -m unittest discover -s tests -v`, Python 3.9.6,
+  25 pruebas ejecutadas, OK; [salida](evidencia/episodio-3.txt).
+  Recorrido adicional de dos procesos del menú con entradas y [salida real](evidencia/recorrido.txt).
+- Evidencia: [interfaz](../main.py), [pruebas de menú](../tests/test_menu.py),
+  [matriz de aceptación](verificacion.md), [README](../README.md).
+- Decisión humana: **pendiente**. Falta indicar aceptar/corregir/rechazar y motivo tras revisar.
+
+## Versiones y evidencia
+
+- Especificación anterior al código: `6537eae`.
+- Episodio 1: `4516aff`.
+- Episodio 2: `9cd5676`.
+- Episodio 3: commit titulado `feat: episodio 3 menu y documentacion de entrega`;
+  recuperar con `git log --oneline`.
+- Las pruebas de cada fase siguen incluidas en la versión final. La última ejecución
+  agrupa las tres fases. Los logs anteriores describen únicamente su versión histórica.

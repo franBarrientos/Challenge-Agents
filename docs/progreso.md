@@ -50,3 +50,11 @@ declaró esa normalización en el recorrido; no se cambió el código del progra
 La primera comprobación de clon local ocurrió antes de completar el commit del episodio 3,
 por lo que verificó el episodio 2 (18 pruebas, OK); se conserva con su commit real
 en `evidencia/clon-episodio-2.txt`. La entrega completa se verificará después del commit.
+
+## Verificación de entrega
+
+- Clon limpio local del commit `8fb34d5`: 25 pruebas, OK, Python 3.9.6.
+- Comando: `python3 -m unittest discover -s tests -v`; evidencia en `evidencia/clon-limpio.txt`.
+- No hubo que instalar dependencias. El commit posterior solo incorpora este registro,
+  la evidencia y sus enlaces, sin cambios de código.
+- Pendiente del autor: completar revisión y decisión humana de los tres episodios.

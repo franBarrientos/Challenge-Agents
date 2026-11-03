@@ -113,6 +113,7 @@ python3 -m unittest discover -s tests -v
 ```
 
 Resultado registrado: **25 tests, OK**; [salida completa](docs/evidencia/episodio-3.txt).
+También se verificaron las 25 pruebas desde un [clon limpio local](docs/evidencia/clon-limpio.txt).
 Las pruebas usan bases temporales. La persistencia se comprueba cerrando un proceso y
 abriendo otro, y también reiniciando la aplicación del menú.
 La [matriz](docs/verificacion.md) conecta requisitos con pruebas.

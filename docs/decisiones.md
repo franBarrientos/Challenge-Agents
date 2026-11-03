@@ -65,7 +65,7 @@ deben completarse con su revisión real; no se atribuyen automáticamente al aut
 - Especificación anterior al código: `6537eae`.
 - Episodio 1: `4516aff`.
 - Episodio 2: `9cd5676`.
-- Episodio 3: commit titulado `feat: episodio 3 menu y documentacion de entrega`;
-  recuperar con `git log --oneline`.
+- Episodio 3: `8fb34d5`, `feat: episodio 3 menu y documentacion de entrega`.
+- Reproducción del episodio 3 desde un clon limpio local: [25 pruebas, OK](evidencia/clon-limpio.txt).
 - Las pruebas de cada fase siguen incluidas en la versión final. La última ejecución
   agrupa las tres fases. Los logs anteriores describen únicamente su versión histórica.

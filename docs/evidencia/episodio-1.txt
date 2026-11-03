@@ -1,0 +1,14 @@
+test_conflictos_solo_activa_misma_unidad (test_reglas.ReglasTests) ... ok
+test_consecutivas_y_separadas_en_ambos_sentidos (test_reglas.ReglasTests) ... ok
+test_fecha_invalida_o_formato_incorrecto (test_reglas.ReglasTests) ... ok
+test_fechas_pasadas_bisiestas_y_cambio_de_dia (test_reglas.ReglasTests) ... ok
+test_inicio_igual_o_posterior_al_fin (test_reglas.ReglasTests) ... ok
+test_inventario_de_la_consigna (test_reglas.ReglasTests) ... ok
+test_solicitante_vacio_y_espacios (test_reglas.ReglasTests) ... ok
+test_superposiciones_parciales_contenidas_e_identicas (test_reglas.ReglasTests) ... ok
+test_unidad_desconocida (test_reglas.ReglasTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.005s
+
+OK

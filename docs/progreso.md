@@ -11,3 +11,11 @@
 - Próximos episodios: 1) reglas y pruebas, 2) persistencia y servicio,
   3) menú, integración y documentación.
 - La aprobación del alcance no equivale a verificar los resultados posteriores.
+
+## Episodio 1 — Reglas
+
+- Implementados inventario y reglas en `reservas.py`; 9 pruebas, con subcasos.
+- Comando: `python3 -m unittest discover -s tests -v` (Python 3.9.6).
+- Resultado: 9 pruebas ejecutadas, OK. Salida: `evidencia/episodio-1.txt`.
+- Verificados extremos consecutivos, contención, igualdad, estados, unidades y fechas.
+- No hubo fallos en esta ejecución. Revisión humana del episodio: pendiente.

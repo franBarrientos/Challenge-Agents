@@ -30,3 +30,17 @@ deben completarse con su revisión real; no se atribuyen automáticamente al aut
   9 pruebas ejecutadas, OK; [salida](evidencia/episodio-1.txt).
 - Evidencia: [reglas](../reservas.py), [pruebas](../tests/test_reglas.py).
 - Decisión humana: **pendiente**. Falta indicar aceptar/corregir/rechazar y motivo tras revisar.
+
+## Episodio 2 — Persistencia y cancelación
+
+- Objetivo/requisitos: CA02–CA11; integrar reglas con guardado durable.
+- Contexto: especificación v1, reglas y evidencia del episodio 1, instrucciones y progreso.
+- Extracto aplicado: «Cancelar mediante UPDATE, conservando ID y datos. Nunca borrar para cancelar»;
+  «Crear tablas si no existen; abrir la aplicación nunca debe reiniciar los datos».
+- Acción del agente: agregó repositorio SQLite y servicio que reutiliza disponibilidad al crear;
+  pruebas de integración y de persistencia con dos procesos independientes.
+- Verificación del agente: `python3 -m unittest discover -s tests -v`, Python 3.9.6,
+  18 pruebas ejecutadas, OK; [salida](evidencia/episodio-2.txt).
+- Evidencia: [persistencia](../persistencia.py), [servicio](../tests/test_servicio.py),
+  [prueba de reinicio](../tests/test_persistencia.py).
+- Decisión humana: **pendiente**. Falta indicar aceptar/corregir/rechazar y motivo tras revisar.

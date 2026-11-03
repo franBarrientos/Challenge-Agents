@@ -19,3 +19,13 @@
 - Resultado: 9 pruebas ejecutadas, OK. Salida: `evidencia/episodio-1.txt`.
 - Verificados extremos consecutivos, contención, igualdad, estados, unidades y fechas.
 - No hubo fallos en esta ejecución. Revisión humana del episodio: pendiente.
+
+## Episodio 2 — Servicio y persistencia
+
+- Agregados SQLite y servicio. Creación usa directamente la consulta de disponibilidad.
+- Cancelación comprobada con comparación de todos los campos antes/después.
+- Se iniciaron y terminaron dos procesos independientes contra una base temporal:
+  el segundo recuperó exactamente el historial, con estados ACTIVA y CANCELADA.
+- Comando: `python3 -m unittest discover -s tests -v` (Python 3.9.6).
+- Resultado: 18 pruebas ejecutadas, OK. Salida: `evidencia/episodio-2.txt`.
+- No hubo fallos en esta ejecución. Revisión humana del episodio: pendiente.
